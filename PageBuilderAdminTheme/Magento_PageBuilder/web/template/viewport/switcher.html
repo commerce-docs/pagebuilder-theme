@@ -16,7 +16,9 @@
         <span class="tooltip-content">
             <span class="tooltip-label" translate="$parent.viewports[name].label"/><br/>
             <span translate="'Display your content for '"/><text args="name"/><br/>
-            <span if="name !== 'desktop'" translate="'Width'"/><span if="name === 'desktop'" translate="'Minimum Width'"/>: <text args="Object.values($parent.viewports[name].conditions)[0]"/>
+            <span if="name !== 'desktop'" translate="'Width'"/>
+            <span if="name === 'desktop'" translate="'Minimum Width'"/>:
+            <text args="Object.values($parent.viewports[name].conditions)[0]"/>
         </span>
     </span>
 </each>
