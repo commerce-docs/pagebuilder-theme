@@ -18,7 +18,7 @@
                 <var name="media">only screen and (max-width: 1024px)</var>
             </var>
             <var name="mobile-small">
-                <var name="label">Small Mobile</var>
+                <var name="label">Mobile Small</var>
                 <var name="stage">true</var>
                 <var name="class">mobile-switcher</var>
                 <var name="icon">images/switcher/switcher-mobile-small.svg</var>
