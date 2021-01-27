@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Vendor_PageBuilderAdminModule', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'PageBuilder_AdminModule', __DIR__);

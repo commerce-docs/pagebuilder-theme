@@ -4,4 +4,4 @@
  * See COPYING.txt for license details.
  */
 use \Magento\Framework\Component\ComponentRegistrar;
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'adminhtml/Vendor/PageBuilderAdminTheme', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'adminhtml/PageBuilder/AdminTheme', __DIR__);
